@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+body {
+    font-family: "Finlandica", sans-serif;
+    background-color: black;
+
+}
+
+html {
+    scroll-behavior: smooth
+}
+@tailwind utilities;
