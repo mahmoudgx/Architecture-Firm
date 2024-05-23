@@ -34,10 +34,12 @@ const NavBar = () => {
                   4. Services
                 </li>
               </a>
+              <a href="#Team">
+                <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
+                  5. Team
+                </li>
+              </a>
 
-              <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
-                5. Team
-              </li>
               <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
                 6. Blog
               </li>

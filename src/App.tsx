@@ -2,6 +2,7 @@ import Carousel from "./components/Carousel";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 import Services from "./components/Services";
+import Team from "./components/Team";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Carousel />
       <Projects />
       <Services />
+      <Team />
     </>
   );
 };
