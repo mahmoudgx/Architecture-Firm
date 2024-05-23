@@ -104,7 +104,7 @@ const Carousel: React.FC = () => {
                       damping: 30,
                       duration: 1,
                     },
-                    opacity: { duration: 1.2 },
+                    opacity: { duration: 0.8 },
                   }}
                   className="absolute inset-0"
                   style={{

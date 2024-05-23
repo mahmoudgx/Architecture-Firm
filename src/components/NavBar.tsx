@@ -18,31 +18,31 @@ const NavBar = () => {
             <ul className="flex space-x-8 list-none text-lg text-white font-semibold">
               <a href="#">
                 <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
-                  Home
+                  1. Home
                 </li>
               </a>
               <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
-                About Us
+                2. About Us
               </li>
               <a href="#Projects">
                 <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
-                  Projects
+                  3. Projects
                 </li>
               </a>
               <a href="#Services">
                 <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
-                  Services
+                  4. Services
                 </li>
               </a>
 
               <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
-                Team
+                5. Team
               </li>
               <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
-                Blog
+                6. Blog
               </li>
               <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
-                Contact
+                7. Contact
               </li>
             </ul>
           </div>
@@ -90,30 +90,30 @@ const NavBar = () => {
         <div className="md:hidden bg-black">
           <ul className="py-2 text-lg text-white font-semibold text-center">
             <a href="#">
-              <li className="hover:text-yellow-500 cursor-pointer py-1 transition duration-300 ease-in-out">
+              <li className="hover:text-yellow-500 cursor-pointer py-2 transition duration-300 ease-in-out">
                 Home
               </li>
             </a>
-            <li className="hover:text-yellow-500 cursor-pointer py-1 transition duration-300 ease-in-out">
+            <li className="hover:text-yellow-500 cursor-pointer py-2 transition duration-300 ease-in-out">
               About Us
             </li>
             <a href="#Projects">
-              <li className="hover:text-yellow-500 cursor-pointer py-1 transition duration-300 ease-in-out">
+              <li className="hover:text-yellow-500 cursor-pointer py-2 transition duration-300 ease-in-out">
                 Projects
               </li>
             </a>
             <a href="#Services">
-              <li className="hover:text-yellow-500 cursor-pointer py-1 transition duration-300 ease-in-out">
+              <li className="hover:text-yellow-500 cursor-pointer py-2 transition duration-300 ease-in-out">
                 Services
               </li>
             </a>
-            <li className="hover:text-yellow-500 cursor-pointer py-1 transition duration-300 ease-in-out">
+            <li className="hover:text-yellow-500 cursor-pointer py-2 transition duration-300 ease-in-out">
               Team
             </li>
-            <li className="hover:text-yellow-500 cursor-pointer py-1 transition duration-300 ease-in-out">
+            <li className="hover:text-yellow-500 cursor-pointer py-2 transition duration-300 ease-in-out">
               Blog
             </li>
-            <li className="hover:text-yellow-500 cursor-pointer py-1 transition duration-300 ease-in-out">
+            <li className="hover:text-yellow-500 cursor-pointer py-2 transition duration-300 ease-in-out">
               Contact
             </li>
           </ul>
