@@ -1,33 +1,39 @@
+import sketch from "../assets/sketch.png";
+import interior from "../assets/interior.png";
+import urban from "../assets/urban.png";
+import architect from "../assets/architect.png";
+
 const servicesData = [
   {
     id: 1,
     title: "Architectural Design",
     description:
       "Innovative and sustainable architectural solutions tailored to your needs.",
-    icon: "🏛️",
+    imageUrl: sketch,
   },
   {
     id: 2,
     title: "Interior Design",
     description:
       "Creating beautiful and functional interior spaces that reflect your style.",
-    icon: "🛋️",
+    imageUrl: interior,
   },
   {
     id: 3,
     title: "Urban Planning",
     description:
       "Comprehensive urban planning services to develop sustainable and livable cities.",
-    icon: "🌆",
+    imageUrl: urban,
   },
   {
     id: 4,
     title: "Consulting Services",
     description:
       "Expert consulting to guide your project from concept to completion.",
-    icon: "📝",
+    imageUrl: architect,
   },
 ];
+
 const Services = () => {
   return (
     <div
@@ -49,7 +55,11 @@ const Services = () => {
             key={service.id}
             className="relative rounded-lg overflow-hidden p-6 bg-transparent border border-white shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col items-center"
           >
-            <div className="text-4xl mb-4">{service.icon}</div>
+            <img
+              src={service.imageUrl}
+              alt={service.title}
+              className="w-16 h-16 mb-4"
+            />
             <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
             <p className="text-center">{service.description}</p>
           </div>
