@@ -41,9 +41,11 @@ const NavBar = () => {
                   5. Team
                 </li>
               </a>
-              <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
-                6. Contact
-              </li>
+              <a href="#ContactUs">
+                <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
+                  6. Contact Us
+                </li>
+              </a>
             </ul>
           </div>
           <div className="flex md:hidden items-center">
@@ -109,12 +111,16 @@ const NavBar = () => {
                 Services
               </li>
             </a>
-            <li className="hover:text-yellow-500 cursor-pointer py-2 transition duration-300 ease-in-out">
-              Team
-            </li>
-            <li className="hover:text-yellow-500 cursor-pointer py-2 transition duration-300 ease-in-out">
-              Contact
-            </li>
+            <a href="#Team">
+              <li className="hover:text-yellow-500 cursor-pointer py-2 transition duration-300 ease-in-out">
+                Team
+              </li>
+            </a>
+            <a href="#ContactUs">
+              <li className="hover:text-yellow-500 cursor-pointer py-2 transition duration-300 ease-in-out">
+                Contact Us
+              </li>
+            </a>
           </ul>
         </div>
       )}

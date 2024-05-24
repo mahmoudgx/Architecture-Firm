@@ -1,5 +1,7 @@
 import AboutUs from "./components/AboutUs";
 import Carousel from "./components/Carousel";
+import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 import Services from "./components/Services";
@@ -14,6 +16,8 @@ const App = () => {
       <Projects />
       <Services />
       <Team />
+      <ContactUs />
+      <Footer />
     </>
   );
 };
