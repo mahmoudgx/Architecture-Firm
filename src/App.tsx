@@ -1,3 +1,4 @@
+import AboutUs from "./components/AboutUs";
 import Carousel from "./components/Carousel";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
@@ -9,6 +10,7 @@ const App = () => {
     <>
       <NavBar />
       <Carousel />
+      <AboutUs />
       <Projects />
       <Services />
       <Team />

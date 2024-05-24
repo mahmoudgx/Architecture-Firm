@@ -91,7 +91,7 @@ const Team = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {teamMembers.map((member) => (
           <div key={member.id} className="flex items-center">
-            <div className="mr-8">
+            <div className="mr-8 ">
               <img
                 src={member.imageUrl}
                 alt={member.name}

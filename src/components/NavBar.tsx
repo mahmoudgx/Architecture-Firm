@@ -21,9 +21,11 @@ const NavBar = () => {
                   1. Home
                 </li>
               </a>
-              <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
-                2. About Us
-              </li>
+              <a href="#AboutUs">
+                <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
+                  2. About Us
+                </li>
+              </a>
               <a href="#Projects">
                 <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
                   3. Projects
@@ -39,12 +41,8 @@ const NavBar = () => {
                   5. Team
                 </li>
               </a>
-
               <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
-                6. Blog
-              </li>
-              <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
-                7. Contact
+                6. Contact
               </li>
             </ul>
           </div>
@@ -96,9 +94,11 @@ const NavBar = () => {
                 Home
               </li>
             </a>
-            <li className="hover:text-yellow-500 cursor-pointer py-2 transition duration-300 ease-in-out">
-              About Us
-            </li>
+            <a href="#AboutUs">
+              <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
+                About Us
+              </li>
+            </a>
             <a href="#Projects">
               <li className="hover:text-yellow-500 cursor-pointer py-2 transition duration-300 ease-in-out">
                 Projects
@@ -111,9 +111,6 @@ const NavBar = () => {
             </a>
             <li className="hover:text-yellow-500 cursor-pointer py-2 transition duration-300 ease-in-out">
               Team
-            </li>
-            <li className="hover:text-yellow-500 cursor-pointer py-2 transition duration-300 ease-in-out">
-              Blog
             </li>
             <li className="hover:text-yellow-500 cursor-pointer py-2 transition duration-300 ease-in-out">
               Contact
