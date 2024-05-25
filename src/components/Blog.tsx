@@ -64,10 +64,9 @@ const Blog = () => {
               <h5 className="block mb-4  text-xl antialiased font-semibold leading-snug tracking-normal text-yellow-500">
                 {post.author}
               </h5>
-
               <img
                 alt={post.title}
-                src={post?.avatar}
+                src={post.avatar}
                 className="relative inline-block h-[74px] w-[74px] rounded-full border-2 border-white object-cover object-center"
               />
             </div>

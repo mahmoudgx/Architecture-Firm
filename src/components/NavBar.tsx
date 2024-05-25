@@ -123,7 +123,7 @@ const NavBar = () => {
             </a>
             <a href="#Blog">
               <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
-                6. Blog
+                Blog
               </li>
             </a>
             <a href="#ContactUs">
