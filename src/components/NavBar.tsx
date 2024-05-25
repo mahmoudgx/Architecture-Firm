@@ -41,9 +41,14 @@ const NavBar = () => {
                   5. Team
                 </li>
               </a>
+              <a href="#Blog">
+                <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
+                  6. Blog
+                </li>
+              </a>
               <a href="#ContactUs">
                 <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
-                  6. Contact Us
+                  7. Contact Us
                 </li>
               </a>
             </ul>
@@ -114,6 +119,11 @@ const NavBar = () => {
             <a href="#Team">
               <li className="hover:text-yellow-500 cursor-pointer py-2 transition duration-300 ease-in-out">
                 Team
+              </li>
+            </a>
+            <a href="#Blog">
+              <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
+                6. Blog
               </li>
             </a>
             <a href="#ContactUs">

@@ -1,4 +1,5 @@
 import AboutUs from "./components/AboutUs";
+import Blog from "./components/Blog";
 import Carousel from "./components/Carousel";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
@@ -16,6 +17,7 @@ const App = () => {
       <Projects />
       <Services />
       <Team />
+      <Blog />
       <ContactUs />
       <Footer />
     </>
