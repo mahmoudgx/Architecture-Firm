@@ -1,28 +1,34 @@
 const PostsData = [
   {
     id: 1,
-    title: "Hello World",
+    title: "The Art of Layering",
     author: "John Doe",
+    date: "6 Jan",
+    category: "Ideas",
     imageUrl:
-      "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1464777649758-8747547e793f?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     avatar:
       "https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=100&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 2,
-    title: "Hello World",
+    title: "Eco-Friendly Interior Design",
     author: "John Doe",
+    date: "17 Mar",
+    category: "Ideas",
     imageUrl:
-      "https://plus.unsplash.com/premium_photo-1677105821967-2783da64db3b?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1569227997603-33b9f12af927?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     avatar:
       "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=100&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 3,
-    title: "Hello World",
+    title: "Guggenheim Abu Dhabi",
     author: "Jane Doe",
+    date: "20 Dec",
+    category: "News",
     imageUrl:
-      "https://images.unsplash.com/photo-1496564203457-11bb12075d90?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://www.timeoutabudhabi.com/cloud/timeoutabudhabi/2022/05/10/Guggenheim-Abu-Dhabi.jpg",
     avatar:
       "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=100&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -47,7 +53,7 @@ const Blog = () => {
         {PostsData.map((post) => (
           <div
             key={post.id}
-            className="relative flex h-[30rem] w-full max-w-[28rem] flex-col items-center justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700 cursor-pointer"
+            className="relative flex h-[30rem] w-full max-w-[28rem] flex-col items-center justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700 "
             style={{
               backgroundImage: `url(${post.imageUrl})`,
               backgroundSize: "cover",
@@ -58,9 +64,10 @@ const Blog = () => {
               <div className="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-yellow-500/80 via-black/50"></div>
             </div>
             <div className="relative flex flex-col items-center p-6 px-6 py-14 md:px-12">
-              <h2 className="mb-6 block  text-4xl font-medium leading-[1.5] tracking-normal text-white antialiased">
+              <h2 className="mb-6 block  text-3xl font-medium leading-[1.5] tracking-normal text-white antialiased cursor-pointer">
                 {post.title}
               </h2>
+              <p className="text-white text-sm">{post.date}</p>
               <h5 className="block mb-4  text-xl antialiased font-semibold leading-snug tracking-normal text-yellow-500">
                 {post.author}
               </h5>
