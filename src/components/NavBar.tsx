@@ -102,7 +102,7 @@ const NavBar = () => {
               </li>
             </a>
             <a href="#AboutUs">
-              <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
+              <li className="hover:text-yellow-500 cursor-pointer py-2 transition duration-300 ease-in-out">
                 About Us
               </li>
             </a>
@@ -122,7 +122,7 @@ const NavBar = () => {
               </li>
             </a>
             <a href="#Blog">
-              <li className="hover:text-yellow-500 cursor-pointer transition duration-300 ease-in-out">
+              <li className="hover:text-yellow-500 cursor-pointer py-2 transition duration-300 ease-in-out">
                 Blog
               </li>
             </a>

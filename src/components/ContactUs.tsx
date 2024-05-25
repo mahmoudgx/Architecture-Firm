@@ -59,7 +59,7 @@ const ContactUs = () => {
                   placeholder="Your message here..."
                 ></textarea>
               </div>
-              <div className="w-full px-3 mt-6">
+              <div className="w-full px-3 mt-6 flex justify-center">
                 <button
                   className="bg-white hover:bg-yellow-500 text-black font-bold py-3 px-6 rounded-full focus:outline-none focus:shadow-outline"
                   type="button"
